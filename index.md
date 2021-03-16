@@ -2,122 +2,29 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Parea - Funcionalidades
 
-[Link to another page](./another-page.html).
+## Usuarios
 
-There should be whitespace between paragraphs.
+### Categorías
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Cuando un usuario elige qué categorías/conocimientos quiere enseñar o aprender, el sistema le preguntará si echa algo en falta, dejando que rellene un cuestionario previamente oculto para ello. Podrá elegir una actividad e incluirla en una categoría o dejar en blanco la categoría y sería algún administrador quién la coloque según crea conveniente. También habrá un buscador por palabras para agilizar el proceso. Un límite de entre 5 y 10 categorías, tanto para enseñar como para aprender, creo que sería suficiente.
 
-# Header 1
+### Feedback
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Para la fase de testeo me gustaría añadir un botón en todas las páginas para hacerme llegar un feedback sobre algún problema en la página, consejos de mejora, etc. El uso sería rudimentario, permitiendo elegir si es sobre la página actual o cualquier otra, con un título y una breve descripción del problema. Estaría bien poder añadir una captura de pantalla (investigar sobre eso).
 
-## Header 2
+### Avatares
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+En un principio me gustaba la idea de que cada cual subiera una foto suya, pero después de ver [esta web](https://bigheads.io/
+) me ha parecido buena idea crear unos avatares así. Habría que incluir la creación del avatar, así que sólo lo haré si tengo bastante tiempo.
 
-### Header 3
+### Moderadores
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+En un principio, en ajustes de perfil, se podrá solicitar ser moderador (o administrador) para controlar que nadie se pase de la raya. Podrán silenciar o inhabilitar temporalmente la cuenta a alguien, avisando automáticamente a los administradores de ello. La gente se podrá poner en contacto con ellos directamente (aparecerán en un listado) o con la opción de "denunciar/avisar a un moderador".
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## Diseño
 
-#### Header 4
+### Logo
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+Unas manos estrechándose, unas letras griegas, dos personas juntas...
